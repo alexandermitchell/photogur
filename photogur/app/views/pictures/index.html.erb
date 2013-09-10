@@ -1,4 +1,4 @@
-<p class='link'><%= link_to "Add New Picture", new_picture_path %></p>
+<p class='link'><%= link_to("+add", new_picture_path) %></p>
 <% @pictures.each do |picture| %>
 
 <div class='wrapper' style='background-image: url("<%= image_path picture.image %>")'>

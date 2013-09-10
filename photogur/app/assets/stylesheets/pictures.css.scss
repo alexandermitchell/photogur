@@ -1,11 +1,9 @@
 .wrapper {
-	width: 500px;
+	width: 20%;
 	height: 300px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: 500px 300px;
-	margin: 30px 30px;
-	border-radius: 20px;
 	text-decoration: none;
 	float: left;
 
@@ -23,9 +21,15 @@
 		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 		color: white;
 		font-size: 15px;
-		border-radius: 20px;
 		text-decoration: none;
 	}
+}
+
+html {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 50px;
+
 }
 
 .text a {
@@ -38,10 +42,12 @@
 	font-size: 40px;
 	text-align: center;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	line-spacing: 0.5;
+
 }
 
 .link a {
-	color: black;
+	color: #00FFFF;
 	text-decoration: none;
 }
 
