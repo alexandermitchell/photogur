@@ -1,0 +1,12 @@
+<div class='wrapper' style='background-image: url("<%= image_path @picture.image %>")'>
+
+	<%#= image_tag picture.image %>
+	
+	<div class='text'>
+		<div class='header'><%= link_to @picture.title, picture_path%></div>
+		<div class='subtitle'><%= @picture.artist %></div>
+	</div>
+
+</div>
+
+<p class='link'><%= link_to "Edit Picture", edit_picture_path %></p><p class='link'><%= link_to "All Pictures", pictures_path %></p>
